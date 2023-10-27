@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Creepster';
+    font-size: 25px;
+    background-color: #000000;
+    
+}
+
+
+.navbar {
+    display: flex;
+    background-color: #f6660d;
+    justify-content: space-around;
+    align-items: center ;
+    position: fixed;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+        0 0 0.2em #87F
+}
+
+nav a:hover {
+    text-shadow: 0 0 0.2em rgb(24, 7, 129), 0 0 9.9px rgb(51, 38, 139),
+        0 0 0.2em rgb(83, 62, 221);
+    transition: 0.5;
+}
+
+.img_navbar {
+    width: 15%;
+    height: auto;
+}
+
+.titulo_1 {
+    color: #f6660d;
+    text-align: center;
+    margin-top: 70px;
+    text-shadow: 3px 3px 5px #ffffff;
+}
+
+.container {
+    border: 3px solid #f6660d;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.titulo {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin: 15px;
+}
+
+.texto {
+    color: white;
+    text-align: justify;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.section-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main{
+    background-image: url(background.gif);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
